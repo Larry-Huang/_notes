@@ -17,8 +17,8 @@ title: Jerry Huang's note
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   write something and note it.s
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/_notes" # the subpath of your site, e.g. /blog
+url: "https://larry-huang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 footer_content: Jerry Huang
