@@ -6,6 +6,5 @@ has_children: true
 permalink: /docs/ide-tools
 ---
 
-# ide-tools
-
-ide-tools document
+# 開發工具
+- 紀錄開發工具常用快捷列
