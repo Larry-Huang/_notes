@@ -7,6 +7,44 @@ nav_order: 1
 
 
 ### Href Link
+
+```
+[這是一個行內連結](https://www.google.com)
+
+[這是一個帶有標題的行內連結](https://www.google.com "Google's Homepage")
+
+[這是一個參考連結][Arbitrary case-insensitive reference text]
+
+[這是一個對應到 Git 倉儲檔案的相對參考連結](../blob/master/LICENSE)
+
+[參考標的物也可以使用數字][1]
+
+直接使用文字對應也可以 [這段文字連到參考項目]
+
+參考項目可以寫在文檔的最後，有點像書內的註解（註腳）。
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[這段文字連到參考項目]: http://www.reddit.com
+```
+[這是一個行內連結](https://www.google.com)
+
+[這是一個帶有標題的行內連結](https://www.google.com "Google's Homepage")
+
+[這是一個參考連結][Arbitrary case-insensitive reference text]
+
+[這是一個對應到 Git 倉儲檔案的相對參考連結](../blob/master/LICENSE)
+
+[參考標的物也可以使用數字][1]
+
+直接使用文字對應也可以 [這段文字連到參考項目]
+
+參考項目可以寫在文檔的最後，有點像書內的註解（註腳）。
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[這段文字連到參考項目]: http://www.reddit.com
+
 ```
 I get 10 times more traffic from [Google][] than from
 [Yahoo][] or [MSN][].
