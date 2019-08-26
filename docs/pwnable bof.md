@@ -4,6 +4,12 @@ title: pwnable_bof
 parent: Pentest
 nav_order: 2
 ---
+---
+layout: default
+title: Buttons
+parent: UI Components
+nav_order: 2
+---
 
 # pwnable bof
 Source :

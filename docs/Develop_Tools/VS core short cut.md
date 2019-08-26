@@ -1,3 +1,10 @@
+---
+layout: default
+title: vscode short cut
+parent: develop tools
+nav_order: 1
+---
+
 # Visual studio Core 快捷
 ### 行操作
 * alt+上 或 alt+下 快速移動一整行
