@@ -1,8 +1,8 @@
 ---
 layout: default
 title: pwnable_bof
-parent: Pentest
-nav_order: 2
+parent: pentrue-test
+nav_order: 1
 ---
 
 # pwnable bof

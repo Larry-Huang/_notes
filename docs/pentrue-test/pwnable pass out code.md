@@ -1,8 +1,8 @@
 ---
 layout: default
 title: pwnable_passout_code
-parent: Pentest
-nav_order: 1
+parent: pentrue-test
+nav_order: 2
 ---
 
 # pwnable 'pass'code

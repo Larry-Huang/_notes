@@ -4,15 +4,16 @@ title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This Page is for noting something I occured included IT, travling and something I feel interested.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### about me
+- Jerry Huang ChineseName:黃建智
+- IT enginner
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### specialize:
+- .NET 
+- Python
+- Javascript
+- WEB Stack
+- IOT 
 
-
-[jekyll-organization]: https://github.com/jekyll
