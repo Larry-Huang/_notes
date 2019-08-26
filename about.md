@@ -9,7 +9,7 @@ permalink: /about/
 
 ## about me
 >- Jerry Huang 
->- Chinese Name:黃建智s
+>- Chinese Name:黃建智
 >- IT engineer
 
 ## specialize:
