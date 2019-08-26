@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 工作經歷
+title: work
 nav_order: 1
 has_children: true
 permalink: /docs/work
