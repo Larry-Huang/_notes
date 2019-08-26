@@ -7,3 +7,5 @@ permalink: /docs/ide-tools
 ---
 
 # ide-tools
+
+ide-tools document

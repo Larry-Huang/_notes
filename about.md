@@ -4,11 +4,13 @@ title: About me
 permalink: /about/
 ---
 
-This Page is for noting something I occured included IT, travling and something I feel interested.
+This Page is for noting something I occurred included IT, traveling and something I feel interested.
 
 ### about me
-- Jerry Huang ChineseName:黃建智
-- IT enginner
+- Jerry Huang 
+- Chinese Name:黃建智
+- IT engineer
+- 
 
 ### specialize:
 - .NET 
