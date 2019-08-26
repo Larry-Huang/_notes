@@ -5,7 +5,7 @@ parent: pentrue-test
 nav_order: 2
 ---
 
-# pwnable 'pass'code
+# pwnable pass code
 
 Source :
 - [pwnable.kr](http://pwnable.kr/play.php)
@@ -15,7 +15,8 @@ Source :
 - [linux got](http://www.freebuf.com/articles/system/135685.html)
 ---
 ## 程式原始碼
-``` c
+
+``` c++
 #include <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -61,6 +62,7 @@ int main(){
 	return 0;	
 }
 ```
+
 ---
 ## solution
 ### 查got表
@@ -84,6 +86,7 @@ Relocation section '.rel.plt' at offset 0x398 contains 9 entries:
 0804a01c  00000807 R_386_JUMP_SLOT   00000000   __libc_start_main@GLIBC_2.0
 0804a020  00000907 R_386_JUMP_SLOT   00000000   __isoc99_scanf@GLIBC_2.7
 ```
+
 ### disas login
 - 查完之後會發現scanf前的地址-0x10(%ebp) 剛好在'a'*96的後四位...
 ```gdb
