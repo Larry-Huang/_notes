@@ -5,7 +5,7 @@ parent: work
 nav_order: 1
 ---
 # Brief About Me.
-===
+
 ## 1.Certificate Authorize  
 In order to integrate the military smart card verification mechanism, the verification program is designed for the national military customized smart card. After the user inserts the smart card into the card reader, the certificate verification program is used to enter the PinCode and then do the first stage verification. When the PinCode is verified, After completion, enter the card to read the signature information and verify, then the verification send to the LDAP to retrieve the identity, and send the  serial number to the MCA for validation and check.
 ![](https://i.imgur.com/Bu0yTL1.png)
