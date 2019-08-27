@@ -9,18 +9,13 @@ nav_order: 5
 
 ### input/output types
 ---
-IO Name|file descriptor
--------|:--------------
-stdin  |0
-stdout |1
-stderr |2
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+|IO Name|file descriptor|
+|:------|:--------------|
+|stdin  |0|
+|stdout |1|
+|stderr |2|
+
 
 ### Redirection
 
