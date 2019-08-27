@@ -16,12 +16,11 @@ nav_order: 2
 
 
 ### Permission Explained
-||U|G|O|
-|-|-|-|-|
+|  |U |G |O |
+|:-|:-|:-|:-|
 |Symbolic| rwx| r-x| r--|
 |Binary| 111| 101 |100|
 |Decimal| 7| 5 |4|
-
 
 ### The find and locate Command
 ```find [path…] [expression]```
