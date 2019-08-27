@@ -5,11 +5,10 @@ parent: linux
 nav_order: 5
 ---
 
-I/O Redirection 
-{: .label }
+### I/O Redirection 
 
-### input/output types
----
+input/output types
+{: .label }
 
 |IO Name|file descriptor|
 |:------|:--------------|
