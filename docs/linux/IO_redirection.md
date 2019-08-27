@@ -5,7 +5,8 @@ parent: linux
 nav_order: 5
 ---
 
-## I/O Redirection
+I/O Redirection 
+{: .label }
 
 ### input/output types
 ---
