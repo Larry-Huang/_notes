@@ -9,11 +9,11 @@ nav_order: 5
 
 ### input/output types
 ---
-|IO Name|file descriptor|
-|:---:|:-------------:|
-|stdin|0|
-|stdout|1|
-|stderr|2|
+IO Name|file descriptor
+-------|:--------------
+stdin|0
+stdout|1
+stderr|2
 
 ### Redirection
 
