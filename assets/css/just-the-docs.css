@@ -365,10 +365,10 @@ th {
   background: #7253ed; }
 
 html {
-  font-size: 14px !important; }
+  font-size: 16px !important; }
   @media (min-width: 31.25rem) {
     html {
-      font-size: 16px !important; } }
+      font-size: 18px !important; } }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;

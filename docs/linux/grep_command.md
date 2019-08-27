@@ -29,8 +29,9 @@ jason.tar: POSIX tar archive
 strings Display printable strings.
 
 ### Pipes
-- '|' Pipe symbol
+- \| Pipe symbol
 - command-output | command-input
+
 ``` shell
 grep pattern file
 cat file | grep pattern
