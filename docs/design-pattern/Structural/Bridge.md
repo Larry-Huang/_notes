@@ -14,6 +14,8 @@ Bridge模式的目的，在於將抽象與實現分離，使兩者都可以獨�
 
 簡單地說，Bridge模式的重點在於，對Abstraction的實作，不應該依賴於特定API或平台，應 辨識出Implementor，透過Implementor來橋接特定API或平台實現。
 
+盡量用組合取代繼承，因為繼承耦合性遠大於組合！
+
 ``` c#
 using Autofac;
 using System;
