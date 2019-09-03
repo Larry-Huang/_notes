@@ -20,12 +20,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/_notes" # the subpath of your site, e.g. /blog
 url: "https://larry-huang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: s965006
-github_username:  jekyll
+github_username:  jekylls
 footer_content: Jerry Huang
-site-footer: Edited in 2019.
-
+site-footer: Edited in 2019/9/2.
 ga_tracking: UA-146524294-1
-
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: "dark"
 # Build settings
 markdown: kramdown
 theme: just-the-docs
