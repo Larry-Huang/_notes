@@ -1,7 +1,7 @@
 ---
 layout: default
 title: work_Eng
-parent: work
+parent: Work
 nav_order: 1
 ---
 # Brief About Me.

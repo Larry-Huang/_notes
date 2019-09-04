@@ -1,7 +1,7 @@
 ---
 layout: default
 title: IO_redirection
-parent: linux
+parent: Linux
 nav_order: 5
 ---
 

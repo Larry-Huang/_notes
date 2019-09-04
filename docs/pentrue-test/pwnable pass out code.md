@@ -1,7 +1,7 @@
 ---
 layout: default
 title: pwnable_passout_code
-parent: pentrue-test
+parent: Pentrue-test
 nav_order: 2
 ---
 

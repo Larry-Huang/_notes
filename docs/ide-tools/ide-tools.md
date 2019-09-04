@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ide-tools
+title: IDE-tools
 nav_order: 1
 has_children: true
 permalink: /docs/ide-tools

@@ -3,11 +3,12 @@ layout: default
 title: Abstract Factory
 nav_order: 4
 parent: Creational
-grand_parent: design_pattern
+grand_parent: Design_pattern
 ---
 
 ### Abstract Factory 模式
 如果您需要一組可以隨時抽換的元件，並且希望可以簡單地 一次抽換，則可以考慮使用Abstract Factory。
+
 ![](https://openhome.cc/Gossip/DesignPattern/images/AbstractFactory-1.jpg)
 
 AbstractFactory這個名詞是從的建立可抽換的一組 物件角度來看這個模式，如果將焦點放 在使用抽象工廠物件的方法上，因為方法定義了一個樣版流程，流程中真正需要實際物件運作的部份，則呼叫callback物件（工廠物件）來建立，所以從流 程的觀點來看，又稱之為Template-callback模式。

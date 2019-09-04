@@ -2,7 +2,7 @@
 layout: default
 title: Structural
 nav_order: 1
-parent: design_pattern
+parent: Design_pattern
 has_children: true
 ---
 

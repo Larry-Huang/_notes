@@ -1,6 +1,6 @@
 ---
 layout: default
-title: work
+title: Work
 nav_order: 1
 has_children: true
 permalink: /docs/work

@@ -2,8 +2,7 @@
 layout: default
 title: RaspberryPi
 nav_order: 7
-has_children: true
-permalink: /docs/python
+parent: Python
 ---
 
 ## RaspberryPi Application Docs

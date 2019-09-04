@@ -3,7 +3,7 @@ layout: default
 title: Composite
 nav_order: 1
 parent: Structural
-grand_parent: design_pattern
+grand_parent: Design_pattern
 ---
 
 假設您今天要開發一個動畫編輯程式，動畫由影格（Frame）組成，數個影格組合為動畫清單，動畫清單也可以由其它已完成的動 畫清單組成，也可以在動畫清單與清單之間加入個別影格。

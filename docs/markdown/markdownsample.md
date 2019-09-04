@@ -1,7 +1,7 @@
 ---
 layout: default
 title: markdown_sample
-parent: markdown
+parent: Markdown
 nav_order: 1
 ---
 

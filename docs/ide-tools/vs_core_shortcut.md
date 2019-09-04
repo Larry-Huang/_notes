@@ -1,7 +1,7 @@
 ---
 layout: default
 title: vscode short cut
-parent: ide-tools
+parent: IDE-tools
 nav_order: 1
 ---
 

@@ -3,10 +3,10 @@ layout: default
 title: Builder
 nav_order: 1
 parent: Creational
-grand_parent: design_pattern
+grand_parent: Design_pattern
 ---
 
-如果您有個物件必須建立，物件是由個別組件（Component）組合而成，個別組件建立非常複雜，但說明如何運用組件建立非 常簡單，您希望將建立複雜組件與運用組件方式分離，則可以使用Builder模式。
+如果您有個物件必須建立，物件是由個別組件（Component）組合而成，個別組件建立非常複雜，但說明如何運用組件建立非常簡單，您希望將建立複雜組件與運用組件方式分離，則可以使用Builder模式。
 
 乍看之下，Builder模式與 Abstract Factory 模式 很類似，其中最主要的差別在於，Abstract Factory模式著重在不同的工廠實作提供不同的一組產品給組件使用，產品之間並不見得有「部份」（Part of）的概念。Builder模式則強調Builder中 所建立的組件，彼此之間有著「部份」（Part of）的概念，並依Director的流程來建立組件與組件之間的關係，也就是說，Builder 組件建立與Director流程指導之間為彼此合作關 係（為強調出兩者關係，或許取名叫Director-Builder模式會更適合）。
 

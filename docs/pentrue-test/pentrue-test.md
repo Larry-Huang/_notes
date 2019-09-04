@@ -1,6 +1,6 @@
 ---
 layout: default
-title: pentrue-test
+title: Pentrue-test
 nav_order: 2
 has_children: true
 permalink: /docs/pentrue-test

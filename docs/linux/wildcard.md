@@ -1,7 +1,7 @@
 ---
 layout: default
 title: wildcard
-parent: linux
+parent: Linux
 nav_order: 4
 ---
 
