@@ -20,7 +20,19 @@ Bridge模式的目的，在於將抽象與實現分離，使兩者都可以獨�
 
 橋模式不能只是認為是抽象和實現的分離，它其實並不僅限於此。其實兩個都是抽象的部分，更確切的理解，應該是將一個事物中多個維度的變化分離。
 
+### 橋接模式的實現要點
+1. Bridge模式使用“對象間的組合關係”解耦了抽象和實現之間固有的綁定關係，使得抽象和實現可以沿著各自的維度來變化。
+2. 所謂抽象和實現沿著各自維度的變化，即“子類化”它們，得到各個子類之後，便可以任意組合它們，從而獲得不同平台上的不同型號。
+3. Bridge模式有時候類似於多繼承方案，但是多繼承方案往往違背了類的單一職責原則（即一個類只有一個變化的原因），復用性比較差。Bridge模式是比多繼承方案更好的解決方法。
+4. Bridge模式的應用一般在“兩個非常強的變化維度”，有時候即使有兩個變化的維度，但是某個方向的變化維度並不劇烈——換言之兩個變化不會導致縱橫交錯的結果，並不一定要使用Bridge模式。
 
+### 橋接模式的使用場景：
+- 如果一個系統需要在構件的抽象化角色和具體化角色之間添加更多的靈活性，避免在兩個層次之間建立靜態的聯繫。
+- 設計要求實現化角色的任何改變不應當影響客戶端，或者實現化角色的改變對客戶端是完全透明的。
+- 需要跨越多個平台的圖形和窗口系統上。
+- 一個類存在兩個獨立變化的維度，且兩個維度都需要進行擴展。
+
+### 案例
 每種數據庫都有自己的版本，但是每種數據庫在不同的平台上實現又是不一樣的。比如：微軟的SqlServer數據庫，該數據庫它有2000版本、2005版本、2006版本、2008版本，後面還會有更新的版本。並且這些版本都是運行在Windows操作系統下的，如果要提供Lunix操作系統下的SqlServer怎麼辦呢？如果又要提供IOS操作系統下的SqlServer數據庫該怎麼辦呢？這個情況就可以使用橋接模式，也就是Brige模式。
 [資料來源](https://www.cnblogs.com/PatrickLiu/p/7699301.html)
 
@@ -30,7 +42,7 @@ namespace 橋接模式的實現
  3      ///  <summary> 
 4      /// 該抽像類就是抽象接口的定義，該類型就相當於是Abstraction類型
  5      ///  </summary> 
-6      public  abstract  class IDatabase
+6      public  abstract  class IDatabaseBridge
  7      {
  8          // 通過組合方式引用平台接口，此處就是橋樑，該類型相當於Implementor類型
 9          protected PlatformImplementor _implementor;
@@ -57,7 +69,7 @@ namespace 橋接模式的實現
 30      ///  <summary> 
 31      /// SqlServer2000版本的數據庫，相當於RefinedAbstraction類型
  32      ///  </summary> 
-33      public  class SqlServer2000 : IDatabase
+33      public  class SqlServer2000 : IDatabaseBridge
  34      {
  35          // 構造函數初始化
 36          public SqlServer2000(IPlatformImplementor implementor) : base (implementor) { }
@@ -71,7 +83,7 @@ namespace 橋接模式的實現
 44      /// <summary> 
 45      /// SqlServer2005版本的數據庫，相當於RefinedAbstraction類型
  46      ///  </summary> 
-47      public  class SqlServer2005 : IDatabase
+47      public  class SqlServer2005 : IDatabaseBridge
  48      {
  49          // 構造函數初始化
 50          public SqlServer2005(IPlatformImplementor implementor) : base (implementor) { }
@@ -111,7 +123,7 @@ namespace 橋接模式的實現
  84              IPlatformImplementor SqlServer2000UnixImp =new SqlServer2000UnixImplementor()
  85              // 還可以針對不同平台進行擴展，也就是子類化，這個是獨立變化的
 86  
-87              IDatabase SqlServer2000Unix = new SqlServer2000(SqlServer2000UnixImp);
+87              IDatabaseBridge SqlServer2000Unix = new SqlServer2000(SqlServer2000UnixImp);
  88              // 數據庫版本也可以進行擴展和升級，也進行獨立的變化。
 89  
 90              // 以上就是兩個維度的變化。
