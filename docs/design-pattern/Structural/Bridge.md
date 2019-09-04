@@ -30,7 +30,7 @@ namespace 橋接模式的實現
  3      ///  <summary> 
 4      /// 該抽像類就是抽象接口的定義，該類型就相當於是Abstraction類型
  5      ///  </summary> 
-6      public  abstract  class Database
+6      public  abstract  class IDatabase
  7      {
  8          // 通過組合方式引用平台接口，此處就是橋樑，該類型相當於Implementor類型
 9          protected PlatformImplementor _implementor;
@@ -48,7 +48,7 @@ namespace 橋接模式的實現
 21      ///  <summary> 
 22      /// 該抽像類就是實現接口的定義，該類型就相當於是Implementor類型
  23      ///  </summary> 
-24      public  abstract  class PlatformImplementor
+24      public  abstract  class IPlatformImplementor
  25      {
  26          // 該方法就相當於Implementor類型的OperationImpl方法
 27          public  abstract  void Process();
@@ -57,10 +57,10 @@ namespace 橋接模式的實現
 30      ///  <summary> 
 31      /// SqlServer2000版本的數據庫，相當於RefinedAbstraction類型
  32      ///  </summary> 
-33      public  class SqlServer2000 : Database
+33      public  class SqlServer2000 : IDatabase
  34      {
  35          // 構造函數初始化
-36          public SqlServer2000(PlatformImplementor implementor) : base (implementor) { }
+36          public SqlServer2000(IPlatformImplementor implementor) : base (implementor) { }
  37  
 38          public  override  void Create()
  39          {
@@ -71,10 +71,10 @@ namespace 橋接模式的實現
 44      /// <summary> 
 45      /// SqlServer2005版本的數據庫，相當於RefinedAbstraction類型
  46      ///  </summary> 
-47      public  class SqlServer2005 : Database
+47      public  class SqlServer2005 : IDatabase
  48      {
  49          // 構造函數初始化
-50          public SqlServer2005(PlatformImplementor implementor) : base (implementor) { }
+50          public SqlServer2005(IPlatformImplementor implementor) : base (implementor) { }
  51  
 52          public  override  void Create()
  53          {
@@ -85,7 +85,7 @@ namespace 橋接模式的實現
 58      ///  <summary> 
 59     /// SqlServer2000版本的數據庫針對Unix操作系統具體的實現，相當於ConcreteImplementorA類型
  60      ///  </summary> 
-61      public  class SqlServer2000UnixImplementor : PlatformImplementor
+61      public  class SqlServer2000UnixImplementor : IPlatformImplementor
  62      {
  63          public  override  void Process()
  64          {
@@ -96,11 +96,11 @@ namespace 橋接模式的實現
 69      ///  <summary> 
 70      /// SqlServer2005版本的數據庫針對Unix操作系統的具體實現，相當於ConcreteImplementorB類型
  71      /// </summary> 
-72      public  sealed  class SqlServer2005UnixImplementor : PlatformImplementor
+72      public  sealed  class SqlServer2005UnixImplementor : IPlatformImplementor
  73      {
  74          public  override  void Process()
  75          {
- 76              Console.WriteLine( " SqlServer2005針對Unix的具體實現" );
+ 76              Console.WriteLine( "SqlServer2005針對Unix的具體實現" );
  77          }
  78      }
  79  
@@ -108,10 +108,10 @@ namespace 橋接模式的實現
  81      {
  82          static  void Main()
  83          {
- 84              PlatformImplementor SqlServer2000UnixImp =new SqlServer2000UnixImplementor();
+ 84              IPlatformImplementor SqlServer2000UnixImp =new SqlServer2000UnixImplementor()
  85              // 還可以針對不同平台進行擴展，也就是子類化，這個是獨立變化的
 86  
-87              Database SqlServer2000Unix = new SqlServer2000(SqlServer2000UnixImp);
+87              IDatabase SqlServer2000Unix = new SqlServer2000(SqlServer2000UnixImp);
  88              // 數據庫版本也可以進行擴展和升級，也進行獨立的變化。
 89  
 90              // 以上就是兩個維度的變化。
