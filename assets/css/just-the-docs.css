@@ -493,7 +493,7 @@ hr {
 @media (min-width: 50rem) {
   .main-content {
     position: relative;
-    max-width: 800px;
+    max-width: 1500px;
     margin-left: 248px; } }
 @media (min-width: 66.5rem) {
   .main-content {
