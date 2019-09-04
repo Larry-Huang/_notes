@@ -37,8 +37,6 @@ namespace 模板方法模式的實現
              // 過了段時間，我開始想吃橙色面的，韭菜雞蛋餡的餃子
              fan = new ConcreteClass2();
              fan.EatDumplings();
- 
- 
              Console.Read();
          }
      }
