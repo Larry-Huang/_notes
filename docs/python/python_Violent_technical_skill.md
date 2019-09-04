@@ -1,7 +1,7 @@
 ---
 layout: default
 title: python_Violent_technical_skill
-parent: python
+parent: Python
 nav_order: 2
 ---
 

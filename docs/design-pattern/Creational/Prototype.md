@@ -3,7 +3,7 @@ layout: default
 title: Prototype
 nav_order: 1
 parent: Creational
-grand_parent: design_pattern
+grand_parent: Design_pattern
 ---
 
 ### Prototype 模式

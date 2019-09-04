@@ -1,7 +1,7 @@
 ---
 layout: default
 title: grep_command
-parent: linux
+parent: Linux
 nav_order: 6
 ---
 

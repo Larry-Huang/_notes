@@ -1,7 +1,7 @@
 ---
 layout: default
 title: linux_basic_command
-parent: linux
+parent: Linux
 nav_order: 2
 ---
 

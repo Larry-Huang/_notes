@@ -1,7 +1,7 @@
 ---
 layout: default
 title: customizing_shell_prompt
-parent: linux
+parent: Linux
 nav_order: 4
 ---
 

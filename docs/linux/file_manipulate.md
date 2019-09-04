@@ -1,7 +1,7 @@
 ---
 layout: default
 title: file_manipulate
-parent: linux
+parent: Linux
 nav_order: 3
 ---
 

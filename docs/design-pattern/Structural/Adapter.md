@@ -3,14 +3,14 @@ layout: default
 title: Adapter
 nav_order: 1
 parent: Structural
-grand_parent: design_pattern
+grand_parent: Design_pattern
 ---
 
 ### Adapter 模式
 使用一個中介的Adapter類別來將真正感興趣的事件實作類別，配接至事件處理介面，上面的程式其 UML 圖如下：
 ![](https://openhome.cc/Gossip/DesignPattern/images/DefaultAdapter-1.jpg)
 
-``` C#
+``` c#
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: work_Chinese
-parent: work
+parent: Work
 nav_order: 2
 ---
 
