@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Flyweight
+title: Proxy
 nav_order: 1
 parent: Structural
 grand_parent: Design_pattern
