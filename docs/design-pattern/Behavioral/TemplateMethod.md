@@ -12,6 +12,7 @@ grand_parent: Design_pattern
  **定義一個操作中的算法的骨架，而將一些步驟延遲到子類中。Template Method使得子類可以不改變一個算法的結構即可重定義該算法的某些特定步驟。——《設計模式》GoF **
 
  ![](https://images2017.cnblogs.com/blog/1048776/201711/1048776-20171115103609171-1216271082.png)
+
  
 ### 模板方法模式參與者：
 1. 抽像類角色（AbstractClass）：定義一個模板方法（TemplateMethod），在該方法中包含著一個算法的骨架，具體的算法步驟是PrimitiveOperation1方法和PrimitiveOperation2方法，該抽像類的子類將重定義PrimitiveOperation1和PrimitiveOperation2操作。
