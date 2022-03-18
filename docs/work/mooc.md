@@ -6,7 +6,7 @@
 ||Refactoring to Design Patterns by Example|Udemy||自行學習|
 ||Advanced Topics in C#|Udemy||自行學習|
 ||Building Modern Web Applications with Go (Golang)|Udemy||自行學習|
-||Data Science|Neural Networks and Deep Learning|Coursera|Deeplearning.ai Andrew Ng|自行學習|
+|Machine Learning|Data Science|Neural Networks and Deep Learning|Coursera|Deeplearning.ai Andrew Ng|自行學習|
 ||Improving Deep Neural Networks|Coursera|Deeplearning.ai Andrew Ng|自行學習|
 ||Structured Machine Learning Projects|Coursera|Deeplearning.ai Andrew Ng|自行學習|
 ||Convolutional Neural Networks|Coursera|Deeplearning.ai Andrew Ng|自行學習|
