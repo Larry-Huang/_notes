@@ -1,6 +1,6 @@
 | 類別|名稱|課程來源|講師|備考|
 |-|-|-|-|-|
-|Recnt|Android从开发入门到实战精通课程----Android进阶|Udemy||自行學習|
+|Recent|Android从开发入门到实战精通课程----Android进阶|Udemy||自行學習|
 ||.NET 技術講座：打造堅固耐用的 C# 程式碼|Udemy|保哥|自行學習|
 ||Design Patterns in C# Made Simple|Udemy||自行學習|
 ||Refactoring to Design Patterns by Example|Udemy||自行學習|
